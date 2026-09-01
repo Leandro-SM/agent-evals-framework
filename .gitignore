@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ---- Testes e cobertura ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ---- Ambiente e segredos (NUNCA versionar) ----
+.env
+.env.*
+*.local
+secrets.json
+*.key
+*.pem
+
+# ---- Resultados de avaliação (gerados) ----
+results/
+*.eval.json
+
+# ---- Editores / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Sistema operacional ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs e temporários ----
+*.log
+*.tmp
+tmp/
+temp/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
